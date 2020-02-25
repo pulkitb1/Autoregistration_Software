@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|IBM+Plex+Sans|Josefin+Sans:700&display=swap');
+
+body {
+    position: relative;
+    background-color: rgba(72,209,204,0.4);
+}
+
+.reg_form {
+    margin: 25px;
+    padding: 10%;
+}
+
+legend {
+    margin: auto;
+    padding: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: block;
+    border: none;
+}
+
+.personalField, .academicInfo, .docs {
+    font-family: 'Acme', sans-serif;
+    margin: auto;
+	font-size: large;
+    padding: 10%;
+}
+
+input {
+    margin: 50px;
+    padding: 5px;
+    border-radius: 100px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+address {
+    float: right;
+}
+
+#gap_y, #gap_n {
+    margin: 25px 25px 25px 25px;
+    padding: 1px ;
+}
+
+#check{
+    opacity: 0;
+}
